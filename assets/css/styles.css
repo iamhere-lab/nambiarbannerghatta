@@ -333,7 +333,8 @@ p { margin: 0 0 1em; }
 .fp-grid.is-unlocked .fp-img img { filter: none; opacity: 1; }
 .fp-grid.is-unlocked .fp-lockbtn { display: none; }
 
-@media (max-width: 1440px) and (min-width: 1260px) { .brand-cp { display: none; } }
+@media (min-width: 1260px) { .brand { margin-right: 24px; } }
+@media (max-width: 1440px) and (min-width: 1260px) { .site-nav { gap: 18px; } .brand-cp { font-size: 9.5px; letter-spacing: .12em; padding-left: 12px; } .brand { gap: 12px; } }
 .hdr-cta .btn-gold, .hdr-cta .btn-line { white-space: nowrap; }
 
 /* ---------- thank-you page ---------- */
